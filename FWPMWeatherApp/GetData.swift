@@ -9,6 +9,7 @@
 import Foundation
 import SwiftyJSON
 
+
 class GetData {
     
     var cityName:String
@@ -78,6 +79,7 @@ class GetData {
         let latestDate:NSDate = calendar.dateByAddingComponents(dateComponent, toDate: tempDate, options:NSCalendarOptions())!
         //print("Datecheck: first day: \(tempDate.description), last Day: \(latestDate.description)")
         
+        var i = 0
         //timeslots auf Tage aufteilen und in Objektmodell speichern.
         for ts in timeslotForecasts {
             //Tag von der Uhrzeit abschneiden, um vergleichen zu können
@@ -95,6 +97,8 @@ class GetData {
                         gData!.daysAndWeather["\(newDate.description)"]!.append(ts)
                         print("new key - \(ts.description()) to \(newDate.description)")
                     }
+                    
+                    
                     break
                 case NSComparisonResult.OrderedDescending:
                     //print("----new date----")
