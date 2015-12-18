@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A7729C0F631290908560E29 /* Pods_FWPMWeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7757AB7463454C61C5415C4F /* Pods_FWPMWeatherApp.framework */; };
+		1D55393F3BB74AF21930920A /* Pods_FWPMWeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7757AB7463454C61C5415C4F /* Pods_FWPMWeatherApp.framework */; };
 		3F43991F1C1C7BEE006E2C38 /* WeeklyForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43991E1C1C7BEE006E2C38 /* WeeklyForecastViewController.swift */; };
 		3F4399211C1C7C0E006E2C38 /* WeathermapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4399201C1C7C0E006E2C38 /* WeathermapViewController.swift */; };
 		3F4399231C1C7D0E006E2C38 /* WeeklyForecastDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4399221C1C7D0E006E2C38 /* WeeklyForecastDayCell.swift */; };
@@ -17,11 +17,11 @@
 		3F45CC731C1C1F8F00B22295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F45CC721C1C1F8F00B22295 /* Assets.xcassets */; };
 		3F45CC761C1C1F8F00B22295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F45CC741C1C1F8F00B22295 /* LaunchScreen.storyboard */; };
 		3F45CC811C1C24AB00B22295 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45CC801C1C24AB00B22295 /* GetData.swift */; };
-		3F7887D71C1D82FE00478DFB /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7887D61C1D82FE00478DFB /* SwiftyJSON.framework */; };
 		3F7887D91C1DB26C00478DFB /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7887D81C1DB26C00478DFB /* Properties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B7C221BF6C631AB2263BCE6 /* Pods-FWPMWeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWPMWeatherApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FWPMWeatherApp/Pods-FWPMWeatherApp.release.xcconfig"; sourceTree = "<group>"; };
 		3F43991E1C1C7BEE006E2C38 /* WeeklyForecastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyForecastViewController.swift; sourceTree = "<group>"; };
 		3F4399201C1C7C0E006E2C38 /* WeathermapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeathermapViewController.swift; sourceTree = "<group>"; };
 		3F4399221C1C7D0E006E2C38 /* WeeklyForecastDayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyForecastDayCell.swift; sourceTree = "<group>"; };
@@ -35,9 +35,9 @@
 		3F45CC801C1C24AB00B22295 /* GetData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
 		3F7887D61C1D82FE00478DFB /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		3F7887D81C1DB26C00478DFB /* Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
-		54DD58805AA5A0F87B0FADCD /* Pods-FWPMWeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWPMWeatherApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FWPMWeatherApp/Pods-FWPMWeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
-		72A4E65F2E3AE024BDE60046 /* Pods-FWPMWeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWPMWeatherApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FWPMWeatherApp/Pods-FWPMWeatherApp.release.xcconfig"; sourceTree = "<group>"; };
+		54909CFA1C243462007A6723 /* Notizen_App.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notizen_App.txt; sourceTree = "<group>"; };
 		7757AB7463454C61C5415C4F /* Pods_FWPMWeatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FWPMWeatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06C8F7AEB5E16AEE1EF022A /* Pods-FWPMWeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWPMWeatherApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FWPMWeatherApp/Pods-FWPMWeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,8 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F7887D71C1D82FE00478DFB /* SwiftyJSON.framework in Frameworks */,
-				2A7729C0F631290908560E29 /* Pods_FWPMWeatherApp.framework in Frameworks */,
+				1D55393F3BB74AF21930920A /* Pods_FWPMWeatherApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,10 +55,11 @@
 		3F45CC5F1C1C1F8F00B22295 = {
 			isa = PBXGroup;
 			children = (
+				54909CFA1C243462007A6723 /* Notizen_App.txt */,
 				3F45CC6A1C1C1F8F00B22295 /* FWPMWeatherApp */,
 				3F45CC691C1C1F8F00B22295 /* Products */,
-				CA6055B54A916D2175656EDF /* Pods */,
 				4CE5B3A00BC74D1CF4745909 /* Frameworks */,
+				BEB09AA57377EEEA1E25103D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,11 +122,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CA6055B54A916D2175656EDF /* Pods */ = {
+		BEB09AA57377EEEA1E25103D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				54DD58805AA5A0F87B0FADCD /* Pods-FWPMWeatherApp.debug.xcconfig */,
-				72A4E65F2E3AE024BDE60046 /* Pods-FWPMWeatherApp.release.xcconfig */,
+				F06C8F7AEB5E16AEE1EF022A /* Pods-FWPMWeatherApp.debug.xcconfig */,
+				2B7C221BF6C631AB2263BCE6 /* Pods-FWPMWeatherApp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -138,12 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F45CC7A1C1C1F8F00B22295 /* Build configuration list for PBXNativeTarget "FWPMWeatherApp" */;
 			buildPhases = (
-				361CA5E69C75F503C9639948 /* Check Pods Manifest.lock */,
+				6C273C8EEEEAFC19708FABB9 /* Check Pods Manifest.lock */,
 				3F45CC641C1C1F8F00B22295 /* Sources */,
 				3F45CC651C1C1F8F00B22295 /* Frameworks */,
 				3F45CC661C1C1F8F00B22295 /* Resources */,
-				802801B608AD6712E33AA3D9 /* Embed Pods Frameworks */,
-				E62C3F34E16E5F0BCBDFB4F2 /* Copy Pods Resources */,
+				F455F8C6B073C59EEB9AFBFC /* Embed Pods Frameworks */,
+				470C78FAE8F732F8D245D886 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,7 +201,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		361CA5E69C75F503C9639948 /* Check Pods Manifest.lock */ = {
+		470C78FAE8F732F8D245D886 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FWPMWeatherApp/Pods-FWPMWeatherApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C273C8EEEEAFC19708FABB9 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -216,7 +231,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		802801B608AD6712E33AA3D9 /* Embed Pods Frameworks */ = {
+		F455F8C6B073C59EEB9AFBFC /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -229,21 +244,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FWPMWeatherApp/Pods-FWPMWeatherApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E62C3F34E16E5F0BCBDFB4F2 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FWPMWeatherApp/Pods-FWPMWeatherApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -370,13 +370,9 @@
 		};
 		3F45CC7B1C1C1F8F00B22295 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54DD58805AA5A0F87B0FADCD /* Pods-FWPMWeatherApp.debug.xcconfig */;
+			baseConfigurationReference = F06C8F7AEB5E16AEE1EF022A /* Pods-FWPMWeatherApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
 				INFOPLIST_FILE = FWPMWeatherApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.fhws.iOSFWPM.FWPMWeatherApp;
@@ -386,13 +382,9 @@
 		};
 		3F45CC7C1C1C1F8F00B22295 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72A4E65F2E3AE024BDE60046 /* Pods-FWPMWeatherApp.release.xcconfig */;
+			baseConfigurationReference = 2B7C221BF6C631AB2263BCE6 /* Pods-FWPMWeatherApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
 				INFOPLIST_FILE = FWPMWeatherApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.fhws.iOSFWPM.FWPMWeatherApp;
