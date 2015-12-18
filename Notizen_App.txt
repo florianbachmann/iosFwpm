@@ -1,0 +1,14 @@
+1) Terminal öffnen: 
+	$ sudo gem install cocoapods
+2) Podfile von 18_MagicalEtc.. in meinen Projekt-Ordner kopiert und aufgemacht und folgenden Text rein kopiert (alles andere ersetzen..)
+platform :ios, '8.0'
+use_frameworks!
+
+target 'MyApp' do
+    pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+end
+
+3) terminal öffnen, mit cd in den Projekt-Ordner --> pod install
+
+4) Danach konnte ich SwiftyJSON nicht importieren: https://github.com/SwiftyJSON/SwiftyJSON/issues/192
+(Post von AllenConquest vom 24.Jul hat mir geholfen)
