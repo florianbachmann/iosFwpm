@@ -14,10 +14,18 @@ class WeeklyForecastDayCell: UITableViewCell {
     @IBOutlet weak var lblDate: UILabel!
     
     @IBOutlet weak var lblTempAM: UILabel!
-    @IBOutlet weak var imgAM: UIImageView!
+    //@IBOutlet weak var imgAM: UIImageView!
     @IBOutlet weak var lblRainyAM: UILabel!
     
-    func setContentForCell(day:String, date:String, temp:String, imgPath:String, rainy:String) {
+//    func setContentForCell(day:String, date:String, temp:String, imgPath:String, rainy:String) {
+//        lblDay.text = day
+//        lblDate.text = date
+//        lblTempAM.text = temp
+//        //imgAM = UIImageView(image: UIImage(named: imgPath))
+//        lblRainyAM.text = rainy
+//    }
+    
+    func setContentForCell(day:String, date:String, temp:String, rainy:String) {
         lblDay.text = day
         lblDate.text = date
         lblTempAM.text = temp

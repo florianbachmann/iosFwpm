@@ -30,21 +30,21 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="9lK-vt-qlI">
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="9lK-vt-qlI">
                                                     <rect key="frame" x="8" y="8" width="584" height="183"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8HD-2H-Mbh" userLabel="StackViewDay">
-                                                            <rect key="frame" x="0.0" y="0.0" width="584" height="21"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="584" height="61"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wednesday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Pt-jq-pkV" userLabel="Day">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="292" height="21"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="292" height="61"/>
                                                                     <animations/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="12.12.2015" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvA-Y8-ICt" userLabel="Date">
-                                                                    <rect key="frame" x="292" y="0.0" width="292" height="21"/>
+                                                                    <rect key="frame" x="292" y="0.0" width="292" height="61"/>
                                                                     <animations/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -54,24 +54,20 @@
                                                             <animations/>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="JDU-zi-cXJ" userLabel="StackViewDetails">
-                                                            <rect key="frame" x="0.0" y="21" width="584" height="162"/>
+                                                            <rect key="frame" x="0.0" y="61" width="584" height="122"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="ptb-cK-vf1">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="161" height="162"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="161" height="122"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Temp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORg-ll-KEW" userLabel="Temp1">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="161" height="21"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="161" height="61"/>
                                                                             <animations/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6pf-3g-98i" userLabel="Image View1">
-                                                                            <rect key="frame" x="0.0" y="21" width="161" height="120"/>
-                                                                            <animations/>
-                                                                        </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Rainy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0J4-Xz-qwE" userLabel="Rainy1">
-                                                                            <rect key="frame" x="0.0" y="141" width="161" height="21"/>
+                                                                            <rect key="frame" x="0.0" y="61" width="161" height="61"/>
                                                                             <animations/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -81,21 +77,17 @@
                                                                     <animations/>
                                                                 </stackView>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="xns-s4-nQb">
-                                                                    <rect key="frame" x="211" y="0.0" width="162" height="162"/>
+                                                                    <rect key="frame" x="211" y="0.0" width="162" height="122"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Temp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1aL-cd-zCZ">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="162" height="21"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="162" height="61"/>
                                                                             <animations/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CtK-pz-doq">
-                                                                            <rect key="frame" x="0.0" y="21" width="162" height="120"/>
-                                                                            <animations/>
-                                                                        </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Rainy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7H6-Pg-VEt">
-                                                                            <rect key="frame" x="0.0" y="141" width="162" height="21"/>
+                                                                            <rect key="frame" x="0.0" y="61" width="162" height="61"/>
                                                                             <animations/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -105,21 +97,17 @@
                                                                     <animations/>
                                                                 </stackView>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="31h-xc-nQH">
-                                                                    <rect key="frame" x="423" y="0.0" width="161" height="162"/>
+                                                                    <rect key="frame" x="423" y="0.0" width="161" height="122"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Temp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0UO-gJ-u6f">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="161" height="21"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="161" height="61"/>
                                                                             <animations/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ETQ-dk-4HS">
-                                                                            <rect key="frame" x="0.0" y="21" width="161" height="120"/>
-                                                                            <animations/>
-                                                                        </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Rainy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Np4-p0-FbZ">
-                                                                            <rect key="frame" x="0.0" y="141" width="161" height="21"/>
+                                                                            <rect key="frame" x="0.0" y="61" width="161" height="61"/>
                                                                             <animations/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -145,7 +133,6 @@
                                         </tableViewCellContentView>
                                         <animations/>
                                         <connections>
-                                            <outlet property="imgAM" destination="6pf-3g-98i" id="MBu-Cg-sEr"/>
                                             <outlet property="lblDate" destination="pvA-Y8-ICt" id="IRG-OA-hQz"/>
                                             <outlet property="lblDay" destination="3Pt-jq-pkV" id="7cS-bU-uBp"/>
                                             <outlet property="lblRainyAM" destination="0J4-Xz-qwE" id="bIa-ge-CiM"/>
@@ -200,12 +187,18 @@
                                 <rect key="frame" x="530" y="136" width="30" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Go"/>
+                                <connections>
+                                    <action selector="btnPressedOk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="31J-R9-lw6"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZZx-NA-FuN">
                                 <rect key="frame" x="181" y="137" width="344" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="txtfldEditingChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="mAj-oN-wes"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <animations/>
@@ -221,6 +214,10 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" id="7Nx-om-xJJ"/>
+                    <connections>
+                        <outlet property="btnGo" destination="u8m-sW-9K9" id="nIf-4n-Iw0"/>
+                        <outlet property="txtfldInsertText" destination="ZZx-NA-FuN" id="1MU-Ql-Gkd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

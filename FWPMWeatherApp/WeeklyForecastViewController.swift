@@ -22,7 +22,8 @@ class WeeklyForecastViewController: UIViewController, UITableViewDelegate, UITab
 */
     
     @IBOutlet weak var tableView: UITableView!
-    
+    var forecastObj:ForecastObject?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         print("weeklyForecast Controller loaded")
@@ -36,14 +37,20 @@ class WeeklyForecastViewController: UIViewController, UITableViewDelegate, UITab
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         print("numberOfRowsInSection")
-        return 1
-        
+        if let frcast = ForecastObject.instance {
+            self.forecastObj = frcast
+            return frcast.daysArray.count
+        } else {
+            return 0
+        }
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         print("gettin cell..")
         let cell = tableView.dequeueReusableCellWithIdentifier("WeeklyForecastDayCell") as! WeeklyForecastDayCell
-        cell.setContentForCell("Today", date: "12.12.2015", temp: "20", imgPath: "/Users/student/Documents/FWPMWeatherApp/FWPMWeatherApp/Assets.xcassets/Foggy.imageset/Foggy.png", rainy: "20%")
+//        cell.setContentForCell("Today", date: "12.12.2015", temp: "20", imgPath: "/Users/student/Documents/FWPMWeatherApp/FWPMWeatherApp/Assets.xcassets/Foggy.imageset/Foggy.png", rainy: "20%")
+        var timeslot:TimeslotMeasured = forecastObj!.daysArray[indexPath.row][0]
+        cell.setContentForCell("Saturday", date: timeslot.dateAndTime.description, temp: timeslot.temperatureDescription(), rainy: timeslot.weatherDescription)
         print("cell setted")
         return cell
     }
