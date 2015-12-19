@@ -1,6 +1,6 @@
 platform :ios, '8.0'
 use_frameworks!
 
-target ‘FWPMWeatherApp’ do
+target 'FWPMWeatherApp' do
     pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
 end
